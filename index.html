@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Gradebook</title>
+</head>
+<body>
+    <h1>Student Gradebook</h1>
+    <form id="gradeEntry">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="" placeholder="Enter Student's First Name"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="" placeholder ="Enter Student's Last Name"><br>
+        <label for="grade">Grade:</label>
+        <input type="text" id="grade" name="grade" value="" placeholder ="Enter Student's Grade (A-F)"><br>
+        <br>
+    </form>
+
+    <button>Sort By First Name</button><button>Sort By Last Name</button><button>Sort By Grade</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+          
+      </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
